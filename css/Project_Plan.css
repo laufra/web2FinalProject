@@ -1,0 +1,21 @@
+/*CSS for final project */
+
+body{
+	text-align: center;
+	background-image: url("tetrisBackground.png");
+}
+
+#title{
+	font-size: 30px;
+	color: black;
+}
+
+table td{
+	border: 2px solid black;
+	width: 50%;
+	background-color: white;
+}
+
+table td ul{
+	text-align: left;
+}

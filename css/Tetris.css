@@ -1,0 +1,438 @@
+html{
+    background: url("https://i.imgur.com/Aij9H4D.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+#t1{
+    padding-left: 285px;
+}
+#t2{
+    padding-left: 190px;
+}
+#t3{
+    padding-left: 95px;
+}
+#t4{
+    padding-left: 0px;
+}
+
+.buttons{
+    font-family: "Agency FB";
+    font-size: 24px;
+    width:120px;
+    height:50px;
+    border: 2px solid CornflowerBlue; /* use this button style */
+    background-color: mediumturquoise; /*  use this color for the buttons */
+}
+
+.headings{
+  margin-top: 60px;
+	color: white;
+	font-family: "Copperplate Gothic Light";
+	font-size: 34px;
+	text-align: center;
+}
+
+.boxes{
+    background-color: #131f3e;
+    border: 1px solid #6868c4;
+    width: 1000px;
+    margin:auto;
+}
+.text{
+    font-family: "Agency FB";
+    font-size: 24px;
+    color:white;
+}
+/*Title Page */
+#button1{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+#button2{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+}
+
+#signUpTable{
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    right: 160px;
+}
+
+#signUpButtons{
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 480px;
+    right: 120px;
+}
+
+#logInTable{
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+}
+
+#logInButtons{
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 240px;
+    right: 8px;
+}
+
+#formTitle{
+    margin-top: 100px;
+}
+
+#logIn{
+    font-size: 20px;
+    width:80px;
+    height:35px;
+}
+
+#buttonGroup{
+    position: absolute;
+    top: 350px;
+    bottom: 20px;
+    left: 800px;
+    right: 15px;
+}
+
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    width: 750px;
+    height: 600px;
+}
+
+h1, h2, h3{
+    font-family: "Copperplate Gothic Light";
+    font-size: 8px;
+    color: white;
+}
+
+/* Play Page */
+#everythingContainer{
+    position: absolute;
+    left:5%;
+}
+
+#canvas1{
+    display:none;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    border:2px solid CornflowerBlue;
+    background-color: rgba(70, 130, 180, 0.2);
+}
+#end{
+    display:none;
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    border:2px solid CornflowerBlue;
+    background-color: rgba(70, 130, 180, 0.2);
+}
+#singlesStat{
+    text-align: left;
+    color: white;
+}
+#doublesStat{
+    text-align: left;
+    color: white;
+}
+#triplesStat{
+    text-align: left;
+    color: white;
+}
+#tetrisStat{
+    text-align: left;
+    color: white;
+}
+
+#menu{
+    position: absolute;
+    display:inline-block;
+    width: 360px;
+    height: 720px;
+    top: 10px;
+    left: 450px;
+    border:2px solid CornflowerBlue;
+    background-color:#080D20;
+}
+
+#stats{
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    color:white;
+    font-family: "tetrisFont";
+    top: 210px;
+    left: 200px;
+    height:370px;
+    width:160px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid CornflowerBlue;
+    background-color: rgba(70, 130, 180, 0.2);
+}
+#stats td{
+    border: none;
+    width: 50px;
+}
+#statsTitle{
+    font-family:"tetrisFont";
+    color:white;
+    font-size: 15px;
+    position: absolute;
+    top: 170px;
+    left: 265px;
+}
+#statSpacer{
+    height: 8px;
+}
+#level{
+    white-space: nowrap;
+    font-family:"tetrisFont";
+    color:white;
+    font-size:15px;
+    position: absolute;
+    top: 40px;
+    left: 185px;
+}
+#lines{
+    white-space: nowrap;
+    font-family:"tetrisFont";
+    color:white;
+    font-size:15px;
+    position: absolute;
+    top: 80px;
+    left: 185px;
+}
+#highscore{
+    white-space: nowrap;
+    font-family:"tetrisFont";
+    color:white;
+    font-size:15px;
+    position: absolute;
+    top: 40px;
+    left: 850px;
+}
+#score{
+    white-space: nowrap;
+    font-family:"tetrisFont";
+    color:white;
+    font-size:15px;
+    position: absolute;
+    top: 80px;
+    left: 854px;
+}
+#nextPiece{
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 850px;
+    width:100px;
+    height:100px;
+    padding:0px;
+    border:2px solid CornflowerBlue;
+    background-color: rgba(70, 130, 180, 0.2);
+}
+#nextPieceTitle{
+    font-family:"tetrisFont";
+    color:white;
+    font-size:15px;
+    position: absolute;
+    top: 190px;
+    left: 870px;
+}
+
+#quitBtn{
+    font-family:"tetrisFont";
+    font-size:15px;
+    position: absolute;
+    top: 530px;
+    left: 880px;
+}
+
+
+/* Instructions Page */
+
+#instrctns{
+    height:450px;
+    width: 620px;
+    font-size: 22px;
+    font-family: "Agency FB";
+    color: white;
+}
+
+.navigationButtons{
+    margin: auto;
+}
+
+/* User Profile Page */
+
+#profile{
+    display: inline-block;
+    height:300px;
+    width: 400px;
+    font-size: 22px;
+    font-family: "Agency FB";
+    color: white;
+    margin:auto;
+}
+
+#friendList{
+    display: inline-block;
+    height:300px;
+    width: 200px;
+    font-size: 24px;
+    font-family: "Agency FB";
+    color: white;
+    overflow:auto;
+}
+#friendListTitle{
+    color: white;
+    font-family: "Copperplate Gothic Light";
+    font-size: 34px;
+    text-align: center;
+}
+#profileContainer{
+    margin-top:100px;
+    margin-left:370px;
+}
+
+#profileTitle{
+    position: relative;
+    top: 80px;
+}
+
+#changePhoto{
+    color:white;
+    font-size: 16px;
+}
+
+.userPic{
+    width: 50px;
+    height: 50px;
+}
+
+/* Sign Up Page */
+
+#spacer{
+  height: 10px;
+}
+
+/*
+#formContainer{
+width:280px;
+height:440px;
+text-align:center;
+
+}
+*/
+
+#signUpTable{
+display: none;
+margin: auto;
+position: absolute;
+top: 50px;
+right: 180px;
+}
+
+#signUpButtons{
+display: none;
+margin: auto;
+position: absolute;
+top: 700px;
+right: 140px;
+}
+
+#logInTable{
+display: none;
+margin: auto;
+position: absolute;
+top: 50px;
+right: 5px;
+}
+
+#logInButtons{
+display: none;
+margin: auto;
+position: absolute;
+top: 300px;
+right: 8px;
+}
+
+#formTitle{
+  margin-top: 100px;
+}
+
+#logIn{
+  font-size: 20px;
+  width:80px;
+  height:35px;
+}
+
+/* code css */
+
+#theBox{
+    background-color: blue;
+    position:absolute;
+    top:575px;
+    left:575px;
+    border: solid;
+    display:none;
+}
+#imagesNaN{
+    display:none;
+}
+#levelSel{
+    border: solid;
+    position: relative;
+    left: 10%;
+    top:50%;
+    color:white;
+    font-family: "tetrisFont";
+}
+#musicSel{
+    border: solid;
+    position: relative;
+    top:40%;
+    left:25%;
+    color:white;
+    font-family: "tetrisFont";
+    font-size: 10px;
+}
+td{
+    text-align: center;
+    width:50px;
+    height:50px;
+}
+
+@font-face {
+    font-family: tetrisFont;
+    font-size: 200px;
+    src: url(tetris.ttf);
+}
+
+#endStats{
+  border: solid;
+  position: relative;
+  width: 200px;
+  top:10%;
+  left:23%;
+  color:white;
+  font-family: "tetrisFont";
+  font-size: 15px;
+}
